@@ -15,7 +15,7 @@
  * the License.
  */
 
-package com.djt.flume;
+package org.apache.flume.source.taildir;
 
 public class TaildirSourceConfigurationConstants {
   /** Mapping for tailing file groups. */

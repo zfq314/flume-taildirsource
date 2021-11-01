@@ -17,7 +17,7 @@
  * under the License.
  */
 
-package com.djt.flume;
+package org.apache.flume.source.taildir;
 
 import com.google.common.collect.Lists;
 import org.apache.flume.Event;
@@ -31,7 +31,7 @@ import java.io.RandomAccessFile;
 import java.util.List;
 import java.util.Map;
 
-import static com.djt.flume.TaildirSourceConfigurationConstants.BYTE_OFFSET_HEADER_KEY;
+import static org.apache.flume.source.taildir.TaildirSourceConfigurationConstants.BYTE_OFFSET_HEADER_KEY;
 
 public class TailFile {
   private static final Logger logger = LoggerFactory.getLogger(TailFile.class);

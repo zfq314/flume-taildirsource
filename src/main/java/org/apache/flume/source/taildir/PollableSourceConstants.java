@@ -17,7 +17,7 @@
 * under the License.
 */
 
-package com.djt.flume;
+package org.apache.flume.source.taildir;
 
 public class PollableSourceConstants {
 

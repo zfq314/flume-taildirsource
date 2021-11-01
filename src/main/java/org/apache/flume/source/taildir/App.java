@@ -1,4 +1,4 @@
-package com.djt.flume;
+package org.apache.flume.source.taildir;
 
 /**
  * Hello world!
